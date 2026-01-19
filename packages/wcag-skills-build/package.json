@@ -1,0 +1,40 @@
+{
+  "name": "@agent-skills-wcag/wcag-skills-build",
+  "version": "1.0.0",
+  "description": "Build and validation tools for WCAG Agent Skills",
+  "main": "scripts/validate.js",
+  "bin": {
+    "wcag-skills-validate": "scripts/validate.js",
+    "wcag-skills-build": "scripts/build.js"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "build": "node scripts/build.js",
+    "test": "npm run validate"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "glob": "^10.3.10",
+    "markdown-link-check": "^3.11.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "wcag",
+    "accessibility",
+    "agent-skills",
+    "ai",
+    "automation"
+  ],
+  "author": "Agent Skills WCAG Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/agent-skills-wcag.git",
+    "directory": "packages/wcag-skills-build"
+  }
+}

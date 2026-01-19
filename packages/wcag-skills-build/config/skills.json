@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-19T14:19:00.461Z",
+  "repository": "agent-skills-wcag",
+  "totalSkills": 18,
+  "skills": {
+    "wcag-audit-operable-keyboard": {
+      "description": "Route user interaction and control accessibility design patterns",
+      "directory": "wcag-audit-operable-keyboard",
+      "category": "router"
+    },
+    "wcag-audit-operable-keyboard-focus": {
+      "description": "Validate logical keyboard navigation order for interface elements",
+      "directory": "wcag-audit-operable-keyboard-focus",
+      "category": "tools"
+    },
+    "wcag-audit-operable-motion": {
+      "description": "Route animation and movement accessibility design considerations",
+      "directory": "wcag-audit-operable-motion",
+      "category": "router"
+    },
+    "wcag-audit-operable-motion-deep": {
+      "description": "Animation and movement accessibility rules for dynamic interface elements",
+      "directory": "wcag-audit-operable-motion-deep",
+      "category": "deep"
+    },
+    "wcag-audit-operable-motion-test": {
+      "description": "Test animations for motion sensitivity compliance and reduced motion preferences",
+      "directory": "wcag-audit-operable-motion-test",
+      "category": "tools"
+    },
+    "wcag-audit-operable-target-size": {
+      "description": "Validate touch target sizes meet 44x44px minimum requirement",
+      "directory": "wcag-audit-operable-target-size",
+      "category": "tools"
+    },
+    "wcag-audit-perceivable-color": {
+      "description": "Route color usage and visual distinction accessibility requirements",
+      "directory": "wcag-audit-perceivable-color",
+      "category": "router"
+    },
+    "wcag-audit-perceivable-color-blindness": {
+      "description": "Simulate how colors appear to users with different types of color blindness",
+      "directory": "wcag-audit-perceivable-color-blindness",
+      "category": "tools"
+    },
+    "wcag-audit-perceivable-color-contrast": {
+      "description": "Calculate WCAG contrast ratios for text and non-text elements",
+      "directory": "wcag-audit-perceivable-color-contrast",
+      "category": "tools"
+    },
+    "wcag-audit-perceivable-layout": {
+      "description": "Route page structure and spatial organization accessibility requirements",
+      "directory": "wcag-audit-perceivable-layout",
+      "category": "router"
+    },
+    "wcag-audit-perceivable-layout-deep": {
+      "description": "Page structure and spatial organization accessibility design patterns",
+      "directory": "wcag-audit-perceivable-layout-deep",
+      "category": "deep"
+    },
+    "wcag-audit-perceivable-media": {
+      "description": "Route audio, video, and multimedia accessibility requirements",
+      "directory": "wcag-audit-perceivable-media",
+      "category": "router"
+    },
+    "wcag-audit-perceivable-media-deep": {
+      "description": "Audio and video accessibility rules for multimedia content design",
+      "directory": "wcag-audit-perceivable-media-deep",
+      "category": "deep"
+    },
+    "wcag-audit-perceivable-text": {
+      "description": "Route typography accessibility design decisions and requirements",
+      "directory": "wcag-audit-perceivable-text",
+      "category": "router"
+    },
+    "wcag-audit-perceivable-text-deep": {
+      "description": "Comprehensive typography accessibility rules for text design and readability",
+      "directory": "wcag-audit-perceivable-text-deep",
+      "category": "deep"
+    },
+    "wcag-audit-perceivable-text-size": {
+      "description": "Convert between px, pt, em, rem units with accessibility context",
+      "directory": "wcag-audit-perceivable-text-size",
+      "category": "tools"
+    },
+    "wcag-audit-understandable-forms": {
+      "description": "Route form input and data collection accessibility requirements",
+      "directory": "wcag-audit-understandable-forms",
+      "category": "router"
+    },
+    "wcag-audit-understandable-forms-deep": {
+      "description": "Form design accessibility rules for user input and data collection",
+      "directory": "wcag-audit-understandable-forms-deep",
+      "category": "deep"
+    }
+  }
+}
