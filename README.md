@@ -7,13 +7,13 @@ Skills are automatically available once installed. The agent will use them when 
 ## Installation
 
 ```sh
-npx add-skill <repository-url>
+npx add-skill https://github.com/Jkense/agent-skills-wcag.git
 ```
 
 Or install specific skills:
 
 ```sh
-npx add-skill <repository-url> --skill wcag-audit-perceivable-color --skill wcag-audit-understandable-forms
+npx add-skill https://github.com/Jkense/agent-skills-wcag.git --skill wcag-audit-perceivable-color --skill wcag-audit-understandable-forms
 ```
 
 ## Available Skills
